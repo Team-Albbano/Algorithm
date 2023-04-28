@@ -33,6 +33,9 @@
 <a href="https://github.com/5wintaek">
   <img src="https://github.com/5wintaek.png" width="100">
 </a>
+<a href="https://github.com/Juhee-Hwang">
+  <img src="https://github.com/Juhee-Hwang.png" width="100">
+</a>
 </p>
 
 ## Language
