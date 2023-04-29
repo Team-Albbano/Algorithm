@@ -19,7 +19,7 @@
 
 - 매주 해결한 문제들을 본인이름으로 만들어 놓은 폴더에 저장하는 방식
 - **Commit Convention** : [언어]문제번호/닉네임 _ex) [JS]2577/ukss_
-- **Branch Naming Convention** : 닉네임 _ex) ukss_ 
+- **Branch Naming Convention** : 닉네임 _ex) ukss_
 
 ### Collaborator
 
@@ -36,13 +36,12 @@
 <a href="https://github.com/Juhee-Hwang">
   <img src="https://github.com/Juhee-Hwang.png" width="100">
 </a>
+<a href="https://github.com/hyunwlee-dev">
+  <img src="https://github.com/hyunwlee-dev.png" width="100">
+</a>
 </p>
 
 ## Language
 
 - Javascript
 - Python
-
-
-
-
