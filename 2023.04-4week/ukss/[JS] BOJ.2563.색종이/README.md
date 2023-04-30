@@ -31,7 +31,6 @@
 const list = require('fs').readFileSync('/dev/stdin').toString().trim().split('\n');
 
 let cnt = list.shift();
-let area = 0;
 let arr = Array.from(Array(100), () => Array(100).fill(false));
 
 for (let i = 0; i < cnt; i++) {
@@ -44,14 +43,14 @@ for (let i = 0; i < cnt; i++) {
   }
 }
 
-let testCnt = 0;
+let area = 0;
 
 for (let i = 0; i < arr.length; i++) {
-  let test = arr[i].filter((el) => el === true);
-  testCnt += test.length;
+  let areaCheck = arr[i].filter((el) => el === true);
+  area += areaCheck.length;
 }
 
-console.log(testCnt);
+console.log(area);
 ```
 
 ## 소요시간
