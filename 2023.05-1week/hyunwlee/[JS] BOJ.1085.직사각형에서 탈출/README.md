@@ -38,13 +38,13 @@ rl.on("line", function (line) {
 });
 
 function solution() {
-  const [x, y, w, h] = input[0].split(' ').map(Number);
+  const [x, y, w, h] = input[0].split(" ").map(Number);
   const distances = [];
   distances.push(x);
   distances.push(y);
   distances.push(w - x);
   distances.push(h - y);
-  const result = distances.reduce((min, curr) => (Math.min(min, curr)), 1000);
+  const result = distances.reduce((min, curr) => Math.min(min, curr), 1000);
   console.log(result);
 }
 ```
