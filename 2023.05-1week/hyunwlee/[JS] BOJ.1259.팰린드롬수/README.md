@@ -1,6 +1,6 @@
-# [JS] BOJ 1085/직사각형에서 탈출
+# [JS] BOJ 1259/팰린드롬수
 
-[문제 링크](https://www.acmicpc.net/problem/1085)
+[문제 링크](https://www.acmicpc.net/problem/1259)
 
 <!-- 제목으로 다음과 같은 내용으로 작성해주세요 ! -->
 <!-- 📕 백준 : BOJ 문제번호/문제제목 e.g. BOJ 2577/숫자의 개수 -->
@@ -19,9 +19,6 @@
 
 <!-- ```옆에 사용하는 언어를 기입하세요 e.g. javascript, python -->
 
-<img width="649" alt="스크린샷 2023-05-01 오후 5 41 10" src="https://user-images.githubusercontent.com/55472696/235431234-f8e405bb-ccec-4e58-ac22-ff9da0a178f5.png">    
-빨간 선중 가장 최단거리를 구하는 문제이다.
-
 ```javascript
 const readline = require("readline");
 const rl = readline.createInterface({
@@ -38,20 +35,38 @@ rl.on("line", function (line) {
 });
 
 function solution() {
-  const [x, y, w, h] = input[0].split(" ").map(Number);
-  const distances = [];
-  distances.push(x);
-  distances.push(y);
-  distances.push(w - x);
-  distances.push(h - y);
-  const result = distances.reduce((min, curr) => Math.min(min, curr), 1000);
-  console.log(result);
+  const result = input
+    .map((item) => {
+      if (item === "0") {
+        return;
+      } else return checkIsPalindrome(item);
+    })
+    .filter((item) => item !== undefined);
+
+  result.forEach((item) => {
+    if (item) console.log("yes");
+    else console.log("no");
+  });
+}
+
+function checkIsPalindrome(str) {
+  let i = 0;
+  let j = str.length - 1;
+
+  while (i < j) {
+    if (str[i] !== str[j]) {
+      return false;
+    }
+    ++i;
+    --j;
+  }
+  return true;
 }
 ```
 
 ## 소요시간
 
-10분
+5분
 
 ## 어려웠던 점
 
