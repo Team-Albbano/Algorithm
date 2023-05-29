@@ -38,6 +38,7 @@ function solution(order) {
     const item = stringOrder[i];
     if (item === "3" || item === "6" || item === "9") {
       answer += 1;
+      // answer++; 후감자 사용해서도 가능하다
     }
   }
   return answer;
