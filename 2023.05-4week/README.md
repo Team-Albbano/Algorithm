@@ -8,14 +8,8 @@
 <a href="https://github.com/ukssss">
   <img src="https://github.com/ukssss.png" width="100">
 </a>
-<a href="https://github.com/hayeonn2">
-  <img src="https://github.com/hayeonn2.png" width="100">
-</a>
 <a href="https://github.com/5wintaek">
   <img src="https://github.com/5wintaek.png" width="100">
-</a>
-<a href="https://github.com/Juhee-Hwang">
-  <img src="https://github.com/Juhee-Hwang.png" width="100">
 </a>
 <a href="https://github.com/hyunwlee-dev">
   <img src="https://github.com/hyunwlee-dev.png" width="100">
