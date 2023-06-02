@@ -22,6 +22,8 @@
 
 <!-- ```옆에 사용하는 언어를 기입하세요 e.g. javascript, python -->
 
+[1차 풀이]
+
 1. dfs로 풀어야 하는 문제이다.
 2. 주어진 영어 모음을 배열안에 넣는다.
 3. 만약 dfs로 들어온 매개변수 length가 단어의 길이와 같다면 그 단어를 결과 배열에 넣는다.
@@ -29,7 +31,38 @@
 5. 5까지 반복문을 돌면서 dfs를 수행한다.
 6. 결과 배열을 정렬하고 그 단어의 위치를 리턴한다.
 
+[2차 풀이 - 수정]
+
+1. vowels를 dfs안에서 매번 재선언 하는 것은 비효율적이다. -> 전역으로 빼줌
+2. dfs의 인자인 result에 push만 하기 때문에 굳이 필요 없다.
+3. dfs내의 word가 주어진 변수의 네이밍 word와 겹쳐서 네이밍 변경했다.
+4. 전역의 str 변수는 굳이 필요하지 않다. 그냥 dfs("", i)로 호출하는게 좋아보임.
+
 ```javascript
+// 2차 풀이
+function solution(word) {
+  const vowels = ["A", "E", "I", "O", "U"];
+  const result = [];
+
+  const dfs = (str, length) => {
+    if (str.length === length) {
+      result.push(str);
+      return;
+    }
+
+    vowels.forEach((vowel) => {
+      dfs(str + vowel, length);
+    });
+  };
+
+  for (let i = 1; i <= 5; i++) {
+    dfs("", i);
+  }
+
+  return result.sort().indexOf(word) + 1;
+}
+
+/*
 function solution(word) {
   const result = [];
   const str = "";
@@ -54,6 +87,7 @@ function solution(word) {
 
   return result.sort().indexOf(word) + 1;
 }
+*/
 ```
 
 ## 소요시간
