@@ -29,8 +29,8 @@
 <!-- 📗 프로그래머스 : PRO 문제번호/문제제목 e.g. [Lang] PRO 120812/최빈값 구하기 -->
 <!-- 백준허브를 사용하시면 프로그래머스의 문제번호도 확인하실 수 있습니다 -->
 
-- [ukss](https://github.com/ukssss) / [[Lang] Type 문제번호/문제제목](#)
-- [hayeon](https://github.com/hayeonn2) / [[Lang] Type 문제번호/문제제목](#)
-- [5wintaek](https://github.com/5wintaek) / [[Lang] Type 문제번호/문제제목](#)
-- [juhee](https://github.com/Juhee-Hwang) / [[Lang] Type 문제번호/문제제목](#)
-- [hyunwlee](https://github.com/hyunwlee-dev) / [[Lang] Type 문제번호/문제제목](#)
+-   [ukss](https://github.com/ukssss) / [[JS] BOJ 11652/카드](https://www.acmicpc.net/problem/11652)
+-   [hayeon](https://github.com/hayeonn2) / [[Lang] Type 문제번호/문제제목](#)
+-   [5wintaek](https://github.com/5wintaek) / [[Lang] Type 문제번호/문제제목](#)
+-   [juhee](https://github.com/Juhee-Hwang) / [[Lang] Type 문제번호/문제제목](#)
+-   [hyunwlee](https://github.com/hyunwlee-dev) / [[Lang] Type 문제번호/문제제목](#)
