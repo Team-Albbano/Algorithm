@@ -44,4 +44,4 @@
 ## Language
 
 - Javascript
-- Python
+- Typescript
