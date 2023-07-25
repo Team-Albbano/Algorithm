@@ -1,6 +1,6 @@
-# 2023.08-1week Algorithm Study
+# 2023.07-5week Algorithm Study
 
-> Since 2023.08.24 - 2023.08.30
+> Since 2023.07.24 - 2023.07.30
 
 ## Contributors
 
